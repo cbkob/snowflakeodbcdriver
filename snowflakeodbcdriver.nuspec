@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Test your packages in a test environment: https://github.com/chocolatey/chocolatey-test-environment -->
+<package xmlns="http://schemas.microsoft.com/packaging/2015/06/nuspec.xsd">
+  <metadata>
+    <id>snowflakeodbcdriver</id>
+    <version>3.4.0</version>
+    <packageSourceUrl>https://github.com/cbkob/snowflakeodbcdriver</packageSourceUrl>
+    <owners>cbkob</owners>
+    <title>Snowflake ODBC Driver (Install)</title>
+    <authors>Snowflake</authors>
+    <projectUrl>https://www.snowflake.com</projectUrl>
+    <iconUrl>https://www.snowflake.com/wp-content/themes/snowflake/assets/img/logo-black.svg</iconUrl>
+    <copyright>2024</copyright>
+    <licenseUrl>https://sfc-repo.snowflakecomputing.com/odbc/Snowflake_ODBC_Driver_License_Agreement.pdf</licenseUrl>
+    <requireLicenseAcceptance>false</requireLicenseAcceptance>
+    <tags>snowflake odbc driver</tags>
+    <summary>Snowflake ODBC Driver is used to communicate with Snowflake using an ODBC connection</summary>
+    <description>Snowflake ODBC Driver is used to communicate with Snowflake using an ODBC connection</description>
+    <releaseNotes>https://docs.snowflake.com/release-notes/clients-drivers/odbcs</releaseNotes>
+  </metadata>
+  <files>
+    <!-- this section controls what actually gets packaged into the Chocolatey package -->
+    <file src="tools\**" target="tools" />
+  </files>
+</package>
