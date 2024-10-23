@@ -31,4 +31,4 @@ function global:au_GetLatest {
 	@{ URL32 = $32url; URL64 = $64url; Version = $version}
 }
 
-update
+update -NoReadme
