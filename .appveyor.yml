@@ -28,7 +28,6 @@ build_script:
 - ps: |
     $au_NoCheckChocoVersion = $true
     ./update.ps1
-    more snowflakeodbcdriver.nuspec
     choco pack
 
 test_script:
